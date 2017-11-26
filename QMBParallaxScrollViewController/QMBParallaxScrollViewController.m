@@ -164,13 +164,13 @@
      * if top-view height is full screen
      * dont resize top view -> Fullscreen Mode
      */
-    if (self.lastGesture == QMBParallaxGestureScrollsDown && _parallaxScrollView.contentOffset.y < -_overPanHeight){
-        if (self.state != QMBParallaxStateFullSize){
-            [self showFullTopView:YES];
-        }
-        
-        return;
-    }
+//    if (self.lastGesture == QMBParallaxGestureScrollsDown && _parallaxScrollView.contentOffset.y < -_overPanHeight){
+//        if (self.state != QMBParallaxStateFullSize){
+//            [self showFullTopView:YES];
+//        }
+//        
+//        return;
+//    }
     
     if (self.state == QMBParallaxStateFullSize && self.lastGesture == QMBParallaxGestureScrollsUp){
         [self showFullTopView:NO];
