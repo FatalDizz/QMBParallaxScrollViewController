@@ -77,7 +77,7 @@
     [self.topViewGestureRecognizer setNumberOfTouchesRequired:1];
     [self.topViewGestureRecognizer setNumberOfTapsRequired:1];
     [self.topViewController.view setUserInteractionEnabled:YES];
-    [self enableTapGestureTopView:YES];
+    [self enableTapGestureTopView:NO];
     
     self.bottomViewGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleBottomTouch:)];
     [self.bottomViewGestureRecognizer setNumberOfTouchesRequired:1];
