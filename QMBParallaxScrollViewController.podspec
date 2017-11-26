@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "QMBParallaxScrollViewController"
-  s.version      = "0.3"
+  s.version      = "0.4"
   s.summary      = "Add a parallax top view to any UIScrollView"
 
   s.homepage     = "http://quemb.github.io/QMBParallaxScrollViewController"
